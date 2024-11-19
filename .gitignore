@@ -16,3 +16,4 @@
 *.pidb
 *.booproj
 *.svd
+Packages/com.ptc.vuforia.engine-*.tgz
