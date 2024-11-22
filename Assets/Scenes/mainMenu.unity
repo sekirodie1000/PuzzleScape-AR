@@ -548,8 +548,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -0.000068665, y: 0.0000095367}
+  m_SizeDelta: {x: 410.597, y: 188.855}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &442248337
 MonoBehaviour:
@@ -605,8 +605,8 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -1626,8 +1626,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 68, y: -244}
-  m_SizeDelta: {x: 679.135, y: 302.724}
+  m_AnchoredPosition: {x: 491.78, y: -75.074}
+  m_SizeDelta: {x: 541.57, y: 278.58}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1526366025
 MonoBehaviour:
@@ -1705,8 +1705,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1f07d727fcb40f347b8bb272ecfe734a, type: 3}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 6d95c5ed4de4e3a4996635a4e077d3b9, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1740,6 +1740,8 @@ MonoBehaviour:
   - Hello
   - It's nice to see you
   - Me?
+  typingSpeed: 0.1
+  pixelFont: {fileID: 0}
 --- !u!1 &1676006391
 GameObject:
   m_ObjectHideFlags: 0
@@ -2050,7 +2052,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -45}
   m_SizeDelta: {x: 413.315, y: 77.49701}
   m_Pivot: {x: 0.5, y: -2.3543003}
 --- !u!114 &1885462367

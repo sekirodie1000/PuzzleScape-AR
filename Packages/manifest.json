@@ -1,6 +1,6 @@
 {
     "dependencies": {
-    "com.ptc.vuforia.engine": "file:com.ptc.vuforia.engine-10.27.3.tgz",
+    "com.ptc.vuforia.engine": "file:com.ptc.vuforia.engine-10.28.4.tgz",
     "com.unity.2d.animation": "10.1.4",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.2d.spriteshape": "10.0.7",
