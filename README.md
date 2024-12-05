@@ -48,7 +48,7 @@ The **PuzzleScape AR** is an augmented reality-based educational game developed 
 
 ### Hardware Requirements
 - Physical AR markers (image targets).
-- A device capable of running AR-supported applications (e.g., smartphones, tablets).
+- A device capable of running AR-supported applications (Android).
 
 ### Software Stack
 - **Unity**: Game engine for development and rendering.
