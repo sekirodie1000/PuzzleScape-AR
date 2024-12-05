@@ -88,6 +88,6 @@ The **PuzzleScape AR** is an augmented reality-based educational game developed 
 - Include interactive tutorials on circuit theory basics.  
 - Multiplayer mode for collaborative learning experiences.  
 
----
+
 
 Enjoy your journey into the world of AR-based circuit puzzles!
