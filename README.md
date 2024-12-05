@@ -72,7 +72,7 @@ The **PuzzleScape AR** is an augmented reality-based educational game developed 
 4. Set up Vuforia.
 5. Import the provided image targets into Vuforia's target manager and download the target database.
 6. Deploy the project to an AR-capable device(Android).
-7. 
+   
 ### Running the Game
 1. Print the provided image targets.
 2. Launch the application on your AR-capable device(Android).
