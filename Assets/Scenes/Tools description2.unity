@@ -724,6 +724,7 @@ GameObject:
   - component: {fileID: 1736414520}
   - component: {fileID: 1736414522}
   - component: {fileID: 1736414521}
+  - component: {fileID: 1736414523}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -747,8 +748,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -688, y: -26}
-  m_SizeDelta: {x: 382.523, y: 382.523}
+  m_AnchoredPosition: {x: -751, y: -66}
+  m_SizeDelta: {x: 496.832, y: 496.83}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1736414521
 MonoBehaviour:
@@ -770,7 +771,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: cb08649571c50344ea650ac179baee14, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 45ea20ed50c3144d8949b4b099f918b4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -788,6 +789,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1736414519}
   m_CullTransparentMesh: 1
+--- !u!114 &1736414523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736414519}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9128431a8f16340148e40308e4481230, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  floatSpeed: 1.5
+  floatHeight: 30
 --- !u!1 &1767705220
 GameObject:
   m_ObjectHideFlags: 0
@@ -1034,8 +1049,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 269, y: -78}
-  m_SizeDelta: {x: 1412.642, y: 678.745}
+  m_AnchoredPosition: {x: 250.814, y: -97.721}
+  m_SizeDelta: {x: 1376.271, y: 718.177}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1932317507
 MonoBehaviour:
@@ -1135,7 +1150,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: -14.137024, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
