@@ -3,16 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\Song\\Myproject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{52187F8D-502B-E01F-959A-E7F8516ACBF1}|Assembly-CSharp.csproj|c:\\users\\song\\myproject\\assets\\uicode\\cornerdetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52187F8D-502B-E01F-959A-E7F8516ACBF1}|Assembly-CSharp.csproj|solutionrelative:assets\\uicode\\cornerdetection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{52187F8D-502B-E01F-959A-E7F8516ACBF1}|Assembly-CSharp.csproj|c:\\users\\song\\myproject\\assets\\uicode\\circuitswitchui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52187F8D-502B-E01F-959A-E7F8516ACBF1}|Assembly-CSharp.csproj|solutionrelative:assets\\uicode\\circuitswitchui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52187F8D-502B-E01F-959A-E7F8516ACBF1}|Assembly-CSharp.csproj|C:\\Users\\Song\\Myproject\\assets\\uicode\\skip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52187F8D-502B-E01F-959A-E7F8516ACBF1}|Assembly-CSharp.csproj|solutionrelative:assets\\uicode\\skip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{52187F8D-502B-E01F-959A-E7F8516ACBF1}|Assembly-CSharp.csproj|C:\\Users\\Song\\Myproject\\assets\\levelcode\\armarkerdetector1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52187F8D-502B-E01F-959A-E7F8516ACBF1}|Assembly-CSharp.csproj|solutionrelative:assets\\levelcode\\armarkerdetector1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|c:\\users\\song\\myproject\\assets\\uicode\\lamplinedark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\uicode\\lamplinedark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{52187F8D-502B-E01F-959A-E7F8516ACBF1}|Assembly-CSharp.csproj|C:\\Users\\Song\\Myproject\\assets\\levelcode\\wiregenerator1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52187F8D-502B-E01F-959A-E7F8516ACBF1}|Assembly-CSharp.csproj|solutionrelative:assets\\levelcode\\wiregenerator1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52187F8D-502B-E01F-959A-E7F8516ACBF1}|Assembly-CSharp.csproj|C:\\Users\\Song\\Myproject\\assets\\levelcode\\puzzlecheckui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52187F8D-502B-E01F-959A-E7F8516ACBF1}|Assembly-CSharp.csproj|solutionrelative:assets\\levelcode\\puzzlecheckui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52187F8D-502B-E01F-959A-E7F8516ACBF1}|Assembly-CSharp.csproj|C:\\Users\\Song\\Myproject\\assets\\uicode\\virtualgridgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52187F8D-502B-E01F-959A-E7F8516ACBF1}|Assembly-CSharp.csproj|solutionrelative:assets\\uicode\\virtualgridgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52187F8D-502B-E01F-959A-E7F8516ACBF1}|Assembly-CSharp.csproj|C:\\Users\\Song\\Myproject\\assets\\levelcode\\puzzleuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52187F8D-502B-E01F-959A-E7F8516ACBF1}|Assembly-CSharp.csproj|solutionrelative:assets\\levelcode\\puzzleuimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52187F8D-502B-E01F-959A-E7F8516ACBF1}|Assembly-CSharp.csproj|C:\\Users\\Song\\Myproject\\assets\\uicode\\wiregenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52187F8D-502B-E01F-959A-E7F8516ACBF1}|Assembly-CSharp.csproj|solutionrelative:assets\\uicode\\wiregenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52187F8D-502B-E01F-959A-E7F8516ACBF1}|Assembly-CSharp.csproj|C:\\Users\\Song\\Myproject\\assets\\uicode\\armarkerdetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52187F8D-502B-E01F-959A-E7F8516ACBF1}|Assembly-CSharp.csproj|solutionrelative:assets\\uicode\\armarkerdetector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52187F8D-502B-E01F-959A-E7F8516ACBF1}|Assembly-CSharp.csproj|C:\\Users\\Song\\Myproject\\assets\\uicode\\arcardanchor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52187F8D-502B-E01F-959A-E7F8516ACBF1}|Assembly-CSharp.csproj|solutionrelative:assets\\uicode\\arcardanchor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52187F8D-502B-E01F-959A-E7F8516ACBF1}|Assembly-CSharp.csproj|C:\\Users\\Song\\Myproject\\assets\\uicode\\gridmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52187F8D-502B-E01F-959A-E7F8516ACBF1}|Assembly-CSharp.csproj|solutionrelative:assets\\uicode\\gridmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52187F8D-502B-E01F-959A-E7F8516ACBF1}|Assembly-CSharp.csproj|C:\\Users\\Song\\Myproject\\assets\\uicode\\setgridorigin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52187F8D-502B-E01F-959A-E7F8516ACBF1}|Assembly-CSharp.csproj|solutionrelative:assets\\uicode\\setgridorigin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52187F8D-502B-E01F-959A-E7F8516ACBF1}|Assembly-CSharp.csproj|C:\\Users\\Song\\Myproject\\assets\\uicode\\circuitcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52187F8D-502B-E01F-959A-E7F8516ACBF1}|Assembly-CSharp.csproj|solutionrelative:assets\\uicode\\circuitcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52187F8D-502B-E01F-959A-E7F8516ACBF1}|Assembly-CSharp.csproj|C:\\Users\\Song\\Myproject\\assets\\uicode\\placecomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52187F8D-502B-E01F-959A-E7F8516ACBF1}|Assembly-CSharp.csproj|solutionrelative:assets\\uicode\\placecomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +62,164 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "skip.cs",
-              "DocumentMoniker": "C:\\Users\\Song\\Myproject\\Assets\\UICode\\skip.cs",
-              "RelativeDocumentMoniker": "Assets\\UICode\\skip.cs",
-              "ToolTip": "C:\\Users\\Song\\Myproject\\Assets\\UICode\\skip.cs",
-              "RelativeToolTip": "Assets\\UICode\\skip.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA3AAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "PuzzleCheckUI.cs",
+              "DocumentMoniker": "C:\\Users\\Song\\Myproject\\Assets\\LevelCode\\PuzzleCheckUI.cs",
+              "RelativeDocumentMoniker": "Assets\\LevelCode\\PuzzleCheckUI.cs",
+              "ToolTip": "C:\\Users\\Song\\Myproject\\Assets\\LevelCode\\PuzzleCheckUI.cs",
+              "RelativeToolTip": "Assets\\LevelCode\\PuzzleCheckUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T03:15:47.327Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CornerDetection.cs",
-              "DocumentMoniker": "C:\\Users\\Song\\Myproject\\Assets\\UICode\\CornerDetection.cs",
-              "RelativeDocumentMoniker": "Assets\\UICode\\CornerDetection.cs",
-              "ToolTip": "C:\\Users\\Song\\Myproject\\Assets\\UICode\\CornerDetection.cs",
-              "RelativeToolTip": "Assets\\UICode\\CornerDetection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-22T01:37:42.222Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T03:13:37.492Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "LampLineDark.cs",
-              "DocumentMoniker": "C:\\Users\\Song\\Myproject\\Assets\\UICode\\LampLineDark.cs",
-              "RelativeDocumentMoniker": "Assets\\UICode\\LampLineDark.cs",
-              "ToolTip": "C:\\Users\\Song\\Myproject\\Assets\\UICode\\LampLineDark.cs",
-              "RelativeToolTip": "Assets\\UICode\\LampLineDark.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Title": "WireGenerator1.cs",
+              "DocumentMoniker": "C:\\Users\\Song\\Myproject\\Assets\\LevelCode\\WireGenerator1.cs",
+              "RelativeDocumentMoniker": "Assets\\LevelCode\\WireGenerator1.cs",
+              "ToolTip": "C:\\Users\\Song\\Myproject\\Assets\\LevelCode\\WireGenerator1.cs",
+              "RelativeToolTip": "Assets\\LevelCode\\WireGenerator1.cs",
+              "ViewState": "AgIAAOoBAAAAAAAAAAAgwPsBAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T19:20:24.614Z"
+              "WhenOpened": "2024-12-04T02:40:23.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ARMarkerDetector1.cs",
+              "DocumentMoniker": "C:\\Users\\Song\\Myproject\\Assets\\LevelCode\\ARMarkerDetector1.cs",
+              "RelativeDocumentMoniker": "Assets\\LevelCode\\ARMarkerDetector1.cs",
+              "ToolTip": "C:\\Users\\Song\\Myproject\\Assets\\LevelCode\\ARMarkerDetector1.cs",
+              "RelativeToolTip": "Assets\\LevelCode\\ARMarkerDetector1.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAUwIoAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T02:40:13.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CircuitSwitchUI.cs",
+              "DocumentMoniker": "C:\\Users\\Song\\Myproject\\Assets\\UICode\\CircuitSwitchUI.cs",
+              "RelativeDocumentMoniker": "Assets\\UICode\\CircuitSwitchUI.cs",
+              "ToolTip": "C:\\Users\\Song\\Myproject\\Assets\\UICode\\CircuitSwitchUI.cs",
+              "RelativeToolTip": "Assets\\UICode\\CircuitSwitchUI.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAgwCwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T09:46:47.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ARMarkerDetector.cs",
+              "DocumentMoniker": "C:\\Users\\Song\\Myproject\\Assets\\UICode\\ARMarkerDetector.cs",
+              "RelativeDocumentMoniker": "Assets\\UICode\\ARMarkerDetector.cs",
+              "ToolTip": "C:\\Users\\Song\\Myproject\\Assets\\UICode\\ARMarkerDetector.cs",
+              "RelativeToolTip": "Assets\\UICode\\ARMarkerDetector.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA0wEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T17:53:42.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VirtualGridGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\Song\\Myproject\\Assets\\UICode\\VirtualGridGenerator.cs",
+              "RelativeDocumentMoniker": "Assets\\UICode\\VirtualGridGenerator.cs",
+              "ToolTip": "C:\\Users\\Song\\Myproject\\Assets\\UICode\\VirtualGridGenerator.cs",
+              "RelativeToolTip": "Assets\\UICode\\VirtualGridGenerator.cs",
+              "ViewState": "AgIAANkAAAAAAAAAAAAqwN8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T16:37:29.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PuzzleUIManager.cs",
+              "DocumentMoniker": "C:\\Users\\Song\\Myproject\\Assets\\LevelCode\\PuzzleUIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\LevelCode\\PuzzleUIManager.cs",
+              "ToolTip": "C:\\Users\\Song\\Myproject\\Assets\\LevelCode\\PuzzleUIManager.cs",
+              "RelativeToolTip": "Assets\\LevelCode\\PuzzleUIManager.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAYwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T03:14:06.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WireGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\Song\\Myproject\\Assets\\UICode\\WireGenerator.cs",
+              "RelativeDocumentMoniker": "Assets\\UICode\\WireGenerator.cs",
+              "ToolTip": "C:\\Users\\Song\\Myproject\\Assets\\UICode\\WireGenerator.cs",
+              "RelativeToolTip": "Assets\\UICode\\WireGenerator.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAmwIABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T18:18:55.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ARCardAnchor.cs",
+              "DocumentMoniker": "C:\\Users\\Song\\Myproject\\Assets\\UICode\\ARCardAnchor.cs",
+              "RelativeDocumentMoniker": "Assets\\UICode\\ARCardAnchor.cs",
+              "ToolTip": "C:\\Users\\Song\\Myproject\\Assets\\UICode\\ARCardAnchor.cs",
+              "RelativeToolTip": "Assets\\UICode\\ARCardAnchor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T16:26:47.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GridManager.cs",
+              "DocumentMoniker": "C:\\Users\\Song\\Myproject\\Assets\\UICode\\GridManager.cs",
+              "RelativeDocumentMoniker": "Assets\\UICode\\GridManager.cs",
+              "ToolTip": "C:\\Users\\Song\\Myproject\\Assets\\UICode\\GridManager.cs",
+              "RelativeToolTip": "Assets\\UICode\\GridManager.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAswGQAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T16:46:25.665Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PlaceComponent.cs",
+              "DocumentMoniker": "C:\\Users\\Song\\Myproject\\Assets\\UICode\\PlaceComponent.cs",
+              "RelativeDocumentMoniker": "Assets\\UICode\\PlaceComponent.cs",
+              "ToolTip": "C:\\Users\\Song\\Myproject\\Assets\\UICode\\PlaceComponent.cs",
+              "RelativeToolTip": "Assets\\UICode\\PlaceComponent.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAiwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T16:46:06.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CircuitComponent.cs",
+              "DocumentMoniker": "C:\\Users\\Song\\Myproject\\Assets\\UICode\\CircuitComponent.cs",
+              "RelativeDocumentMoniker": "Assets\\UICode\\CircuitComponent.cs",
+              "ToolTip": "C:\\Users\\Song\\Myproject\\Assets\\UICode\\CircuitComponent.cs",
+              "RelativeToolTip": "Assets\\UICode\\CircuitComponent.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAiwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T16:45:50.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SetGridOrigin.cs",
+              "DocumentMoniker": "C:\\Users\\Song\\Myproject\\Assets\\UICode\\SetGridOrigin.cs",
+              "RelativeDocumentMoniker": "Assets\\UICode\\SetGridOrigin.cs",
+              "ToolTip": "C:\\Users\\Song\\Myproject\\Assets\\UICode\\SetGridOrigin.cs",
+              "RelativeToolTip": "Assets\\UICode\\SetGridOrigin.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIA2wBMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T16:45:20.187Z"
             }
           ]
         }
