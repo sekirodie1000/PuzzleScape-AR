@@ -17,3 +17,4 @@
 *.booproj
 *.svd
 Packages/com.ptc.vuforia.engine-*.tgz
+"Assets/Editor/Migration/com.ptc.vuforia.engine-*.tgz" 
