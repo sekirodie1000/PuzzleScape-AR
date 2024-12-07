@@ -5,7 +5,12 @@ public class MenuController : MonoBehaviour
 {
     public void StartGame()
     {
-        SceneManager.LoadScene("tutorials");
+        SceneManager.LoadScene("Story1");
+    }
+
+    public void Setting()
+    {
+        SceneManager.LoadScene("Settings");
     }
 
     public void QuitGame()
