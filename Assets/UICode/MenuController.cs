@@ -5,7 +5,7 @@ public class MenuController : MonoBehaviour
 {
     public void StartGame()
     {
-        SceneManager.LoadScene("Story1");
+        SceneManager.LoadScene("Level selection");
     }
 
     public void Setting()
