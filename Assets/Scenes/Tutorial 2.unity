@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 91954519}
   - component: {fileID: 91954518}
   - component: {fileID: 91954522}
+  - component: {fileID: 91954523}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -242,6 +243,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: adf5ef2a4bf05b64497508e3c1402e31, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &91954523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 91954517}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28203d9a482246c4bacbf7f747b30643, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &191452165
@@ -476,6 +489,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 91954523}
+        m_TargetAssemblyTypeName: Play, Assembly-CSharp
+        m_MethodName: Tutorial2
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &226713707
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -600,6 +625,18 @@ MonoBehaviour:
       - m_Target: {fileID: 2105156282}
         m_TargetAssemblyTypeName: SoundEffects_Tutorial2, Assembly-CSharp
         m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 91954523}
+        m_TargetAssemblyTypeName: Play, Assembly-CSharp
+        m_MethodName: Tutorial2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1188,7 +1225,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d78ec47de20d6aa4a97db94bae8f5b11, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4027b5559e6da59419095ec1e15dee59, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1400,7 +1437,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: dc71cb41ec70e6043afdece2ef01dc09, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9c91d322909d1b24f87dd0f8c42ac602, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

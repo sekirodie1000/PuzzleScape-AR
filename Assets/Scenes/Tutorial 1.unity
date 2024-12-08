@@ -791,6 +791,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 620561899}
+        m_TargetAssemblyTypeName: Play, Assembly-CSharp
+        m_MethodName: Tutorial1
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &273583648
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1022,7 +1034,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: dc71cb41ec70e6043afdece2ef01dc09, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9c91d322909d1b24f87dd0f8c42ac602, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1052,6 +1064,8 @@ GameObject:
   - component: {fileID: 620561897}
   - component: {fileID: 620561896}
   - component: {fileID: 620561895}
+  - component: {fileID: 620561899}
+  - component: {fileID: 620561900}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1152,6 +1166,33 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &620561899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 620561894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28203d9a482246c4bacbf7f747b30643, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &620561900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 620561894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f8bb5ded3b0949beb1be4f36381afbe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  src: {fileID: 0}
+  sfx1: {fileID: 0}
+  sfx2: {fileID: 0}
 --- !u!1 &718403526
 GameObject:
   m_ObjectHideFlags: 0
@@ -2065,6 +2106,18 @@ MonoBehaviour:
       - m_Target: {fileID: 256322173}
         m_TargetAssemblyTypeName: SoundEffects_Tutorial1, Assembly-CSharp
         m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 620561899}
+        m_TargetAssemblyTypeName: Play, Assembly-CSharp
+        m_MethodName: Tutorial1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

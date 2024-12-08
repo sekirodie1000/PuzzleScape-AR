@@ -25,25 +25,20 @@ public class WireGenerator1 : MonoBehaviour
     private GameObject switchOnInstance;
     private GameObject switchOffInstance;
 
-    // 电流表 (第一关用)
     public GameObject ammeterNormalPrefab;
     public GameObject ammeterReadingPrefab;
     private GameObject ammeterInstance;
 
-    // 电压表 (第二关用)
     public GameObject voltmeterNormalPrefab;
     public GameObject voltmeterReadingPrefab;
     private GameObject voltmeterInstance;
 
-    // 用于区分关卡
     public bool isLevel2 = false;
 
-    // 第一关初始条件
-    private List<Vector2Int> initialLampPositions_Level1 = new List<Vector2Int> { new Vector2Int(3, 1), new Vector2Int(1, 5) };
-    private Vector2Int initialSwitchPosition_Level1 = new Vector2Int(2, 1);
+    private List<Vector2Int> initialLampPositions_Level1 = new List<Vector2Int> { new Vector2Int(3, 2), new Vector2Int(1, 5) };
+    private Vector2Int initialSwitchPosition_Level1 = new Vector2Int(2, 2);
     private Vector2Int initialBatteryPosition_Level1 = new Vector2Int(0, 1);
 
-    // 第二关初始条件（坏灯泡在(3,1)位置，好灯泡在(3,4)位置）
     private List<Vector2Int> initialLampPositions_Level2 = new List<Vector2Int> { new Vector2Int(3, 1), new Vector2Int(3, 4) };
     private Vector2Int initialSwitchPosition_Level2 = new Vector2Int(0, 2);
     private Vector2Int initialBatteryPosition_Level2 = new Vector2Int(0, 1);
@@ -163,7 +158,6 @@ public class WireGenerator1 : MonoBehaviour
 
         if (!isLevel2)
         {
-            // 第一关逻辑
             if (!initialCheckDone && !puzzleModeStarted)
             {
                 HashSet<Vector2Int> initSet = new HashSet<Vector2Int>(initialLampPositions_Level1);
@@ -244,7 +238,6 @@ public class WireGenerator1 : MonoBehaviour
         }
         else
         {
-            // 第二关逻辑
             if (!initialCheckDone && !puzzleModeStarted)
             {
                 HashSet<Vector2Int> initSet = new HashSet<Vector2Int>(initialLampPositions_Level2);
@@ -257,11 +250,11 @@ public class WireGenerator1 : MonoBehaviour
                 if (initialCorrect)
                 {
                     initialCheckDone = true;
-                    puzzleUIManager.ShowPopup("Initial Layout Correct (Level 2)", showBegin: true);
+                    puzzleUIManager.ShowPopup("Initial Layout Correct (Level 2)", showBegin: true, fontSize: 48, fontColor: Color.green);
                 }
                 else
                 {
-                    puzzleUIManager.ShowPopup("Initial Layout Errors (Level 2)", showBegin: false);
+                    puzzleUIManager.ShowPopup("Initial Layout Errors (Level 2)", showBegin: false, fontSize: 40, fontColor: Color.red);
                 }
                 return;
             }
@@ -275,7 +268,6 @@ public class WireGenerator1 : MonoBehaviour
                 HashSet<Vector2Int> currentLampSet = new HashSet<Vector2Int>(lampPositions);
                 bool lampLayoutCorrect = targetLampSet.SetEquals(currentLampSet);
 
-                // 核心检查： (3,1)位置的灯是否为好灯泡
                 int lampID_3_1 = detector.GetLampInstanceIDAtPosition(new Vector2Int(3, 1));
                 bool is3_1LampGood = detector.IsLampGood(lampID_3_1);
 

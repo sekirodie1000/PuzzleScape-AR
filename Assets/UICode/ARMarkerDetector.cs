@@ -7,22 +7,21 @@ public class ARMarkerDetector : MonoBehaviour
     public VirtualGridGenerator gridGenerator;
     public WireGenerator wireGenerator;
 
-    public ObserverBehaviour[] lampObservers; // Array of lamp observers
+    public ObserverBehaviour[] lampObservers;
     public ObserverBehaviour batteryObserver;
-    public ObserverBehaviour switchObserver; // Add this line
+    public ObserverBehaviour switchObserver;
 
     private List<Vector2Int> lampPositions = new List<Vector2Int>();
     private Vector2Int batteryPosition = new Vector2Int(-1, -1);
-    private Vector2Int switchPosition = new Vector2Int(-1, -1); // Add this line
+    private Vector2Int switchPosition = new Vector2Int(-1, -1);
 
     void Update()
     {
-        lampPositions.Clear(); // Clear previous positions
+        lampPositions.Clear();
 
-        // Update lamp positions
         foreach (var lampObserver in lampObservers)
         {
-            if (lampObserver.TargetStatus.Status == Status.TRACKED)
+            if (lampObserver.TargetStatus.Status == Status.TRACKED || lampObserver.TargetStatus.Status == Status.EXTENDED_TRACKED)
             {
                 Vector2Int currentLampPosition = gridGenerator.GetNearestGridPoint(lampObserver.transform.position);
                 lampPositions.Add(currentLampPosition);
@@ -30,13 +29,11 @@ public class ARMarkerDetector : MonoBehaviour
             }
             else
             {
-                // Remove lamp model when not tracked
                 wireGenerator.UpdateLampModel(new Vector2Int(-1, -1), lampObserver.GetInstanceID());
             }
         }
 
-        // Update battery position
-        if (batteryObserver.TargetStatus.Status == Status.TRACKED)
+        if (batteryObserver.TargetStatus.Status == Status.TRACKED || batteryObserver.TargetStatus.Status == Status.EXTENDED_TRACKED)
         {
             batteryPosition = gridGenerator.GetNearestGridPoint(batteryObserver.transform.position);
             wireGenerator.UpdateBatteryModel(batteryPosition, switchPosition);
@@ -47,8 +44,7 @@ public class ARMarkerDetector : MonoBehaviour
             wireGenerator.UpdateBatteryModel(batteryPosition, switchPosition);
         }
 
-        // Update switch position
-        if (switchObserver.TargetStatus.Status == Status.TRACKED)
+        if (switchObserver.TargetStatus.Status == Status.TRACKED || switchObserver.TargetStatus.Status == Status.EXTENDED_TRACKED)
         {
             switchPosition = gridGenerator.GetNearestGridPoint(switchObserver.transform.position);
             wireGenerator.UpdateSwitchModel(switchPosition);
@@ -59,7 +55,6 @@ public class ARMarkerDetector : MonoBehaviour
             wireGenerator.UpdateSwitchModel(switchPosition);
         }
 
-        // Update circuit and check completion
         wireGenerator.UpdateCircuit(lampPositions, batteryPosition, switchPosition, gridGenerator.rows, gridGenerator.cols);
         wireGenerator.CheckCircuitCompletion(lampPositions, batteryPosition, switchPosition);
     }

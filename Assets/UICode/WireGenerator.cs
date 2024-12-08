@@ -47,7 +47,7 @@ public class WireGenerator : MonoBehaviour
             }
         }
 
-        List<Tuple<Vector2Int, Vector2Int>> wireSegments = new List<Tuple<Vector2Int, Vector2Int>>();
+        HashSet<Tuple<Vector2Int, Vector2Int>> wireSegments = new HashSet<Tuple<Vector2Int, Vector2Int>>();
 
         wireSegments.Add(Tuple.Create(new Vector2Int(0, 0), new Vector2Int(0, cols - 1)));
         wireSegments.Add(Tuple.Create(new Vector2Int(0, cols - 1), new Vector2Int(maxRow, cols - 1)));
@@ -62,8 +62,9 @@ public class WireGenerator : MonoBehaviour
             }
         }
 
-        return wireSegments;
+        return new List<Tuple<Vector2Int, Vector2Int>>(wireSegments);
     }
+
 
     private void CreateWire(Vector3 start, Vector3 end)
     {
@@ -143,6 +144,7 @@ public class WireGenerator : MonoBehaviour
 
     public void CheckCircuitCompletion(List<Vector2Int> lampPositions, Vector2Int batteryPosition, Vector2Int switchPosition)
     {
+
         bool isCompleteCircuit = false;
 
         if (batteryPosition.x >= 0 && batteryPosition.y >= 0 &&
@@ -151,6 +153,23 @@ public class WireGenerator : MonoBehaviour
         {
 
             int wireSegmentCount = wires.Count;
+            Debug.Log($"Wire Segment Count: {wires.Count}");
+
+            for (int i = 0; i < wires.Count; i++)
+            {
+                if (wires[i] != null)
+                {
+                    Vector3 wireStart = wires[i].transform.position - wires[i].transform.forward * wires[i].transform.localScale.z / 2;
+                    Vector3 wireEnd = wires[i].transform.position + wires[i].transform.forward * wires[i].transform.localScale.z / 2;
+
+                    Debug.Log($"Wire {i}: Start({wireStart}) -> End({wireEnd}) | Scale: {wires[i].transform.localScale}");
+                }
+                else
+                {
+                    Debug.Log($"Wire {i}: NULL");
+                }
+            }
+
 
             if (currentCircuitType == CircuitType.Series)
             {
@@ -161,7 +180,7 @@ public class WireGenerator : MonoBehaviour
             }
             else if (currentCircuitType == CircuitType.Parallel)
             {
-                if (wireSegmentCount >= 4)
+                if (wireSegmentCount > 4)
                 {
                     if (lampPositions[0].x != lampPositions[1].x)
                     {
@@ -251,21 +270,18 @@ public class WireGenerator : MonoBehaviour
             GameObject normalLampInstance;
             GameObject glowingLampInstance;
 
-            // Instantiate normal lamp if not already instantiated
             if (!normalLampInstances.TryGetValue(lampID, out normalLampInstance))
             {
                 normalLampInstance = Instantiate(normalLampPrefab);
                 normalLampInstances[lampID] = normalLampInstance;
             }
 
-            // Instantiate glowing lamp if not already instantiated
             if (!glowingLampInstances.TryGetValue(lampID, out glowingLampInstance))
             {
                 glowingLampInstance = Instantiate(glowingLampPrefab);
                 glowingLampInstances[lampID] = glowingLampInstance;
             }
 
-            // Set position and scale
             Vector3 lampWorldPosition = gridGenerator.GetGridPoints()[lampPosition.x, lampPosition.y];
             float scaleFactor = gridGenerator.gridSpacing * 0.25f;
 
@@ -277,7 +293,6 @@ public class WireGenerator : MonoBehaviour
         }
         else
         {
-            // Remove lamp instances if position is invalid
             if (normalLampInstances.ContainsKey(lampID))
             {
                 Destroy(normalLampInstances[lampID]);

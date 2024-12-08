@@ -153,7 +153,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -365, y: -32}
+  m_AnchoredPosition: {x: -306, y: -41}
   m_SizeDelta: {x: 957.864, y: 573.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &375466543
@@ -510,7 +510,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -641.0001, y: 16.00001}
+  m_AnchoredPosition: {x: -582.0001, y: 7.0000095}
   m_SizeDelta: {x: 431.317, y: 131.641}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &511820582
@@ -670,7 +670,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: dc71cb41ec70e6043afdece2ef01dc09, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9c91d322909d1b24f87dd0f8c42ac602, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1159,7 +1159,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e06d7067954dd4fe8952e30d82e39d08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextSceneName: Tutorial 1
+  nextSceneName: 2Game description
 --- !u!114 &1837800363
 MonoBehaviour:
   m_ObjectHideFlags: 0

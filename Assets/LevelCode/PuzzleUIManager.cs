@@ -17,12 +17,20 @@ public class PuzzleUIManager : MonoBehaviour
         if (nextSceneButton != null) nextSceneButton.gameObject.SetActive(false);
     }
 
-    public void ShowPopup(string msg, bool showBegin = false, string nextScene = null)
+    public void ShowPopup(string msg, bool showBegin = false, string nextScene = null, int fontSize = 36, Color? fontColor = null, TMP_FontAsset customFont = null)
     {
         if (popupPanel != null)
         {
             popupPanel.SetActive(true);
             popupText.text = msg;
+
+            popupText.fontSize = fontSize;
+            popupText.color = fontColor ?? Color.white;
+
+            if (customFont != null)
+            {
+                popupText.font = customFont;
+            }
 
             beginButton.gameObject.SetActive(showBegin);
             nextSceneButton.gameObject.SetActive(!string.IsNullOrEmpty(nextScene));
@@ -34,6 +42,7 @@ public class PuzzleUIManager : MonoBehaviour
             }
         }
     }
+
 
     public void OnBeginClicked()
     {
