@@ -78,7 +78,7 @@ The **PuzzleScape AR** is an augmented reality-based educational game developed 
 
 ## Example Video
 
-<video src="demo.mp4" controls width="600"></video>
+[Watch the demo video][demo.mp4]
 
 ## Future Enhancements
 
