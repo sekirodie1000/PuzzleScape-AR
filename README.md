@@ -88,7 +88,7 @@ The **PuzzleScape AR** is an augmented reality-based educational game developed 
 
 ## Acknowledgments
 
-This project was built collaboratively with @JohanaChen .
+This project was built collaboratively with [@JohanaChen](https://github.com/JohanaChen).
 
 
 Enjoy your journey into the world of AR-based circuit puzzles!
