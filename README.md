@@ -2,6 +2,10 @@
 
 The **PuzzleScape AR** is an augmented reality-based educational game developed using **Unity**, **Vuforia**, and **Blender**. This interactive game allows players to solve circuit-related puzzles by arranging AR cards to form correct circuit layouts or diagnose and fix circuit issues. The game provides an engaging way to learn about electrical circuits and troubleshoot problems, combining education with fun.
 
+## Example Video
+
+[Watch the demo video](demo.mp4)
+
 ## Features
 
 1. **Interactive AR Gameplay**  
@@ -75,10 +79,6 @@ The **PuzzleScape AR** is an augmented reality-based educational game developed 
 1. Print the provided image targets.
 2. Launch the application on your AR-capable device(Android).
 3. Follow the on-screen instructions for each level.
-
-## Example Video
-
-[Watch the demo video](demo.mp4)
 
 ## Future Enhancements
 
